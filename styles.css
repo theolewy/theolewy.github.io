@@ -1,10 +1,21 @@
-body {
-    font-family: Arial, sans-serif;
+header {
+    display: flex; /* Use flexbox to control layout */
+    justify-content: space-between; /* Push elements apart, with one on the left and one on the right */
+    align-items: center; /* Vertically center elements */
 }
+
 h1 {
+    margin: 0; /* Remove default margin from h1 */
     font-size: 24px;
 }
 
+body {
+    font-family: Arial, sans-serif;
+}
+main {
+    justify-content: flex-end; /* Push elements to the right */
+    align-items: center; /* Vertically center elements */
+}
 #contact {
-    margin-left: 20px; /* Add spacing between the header and the "Contact Me" section */
+    margin-left: 30px; /* Add spacing between the header and the "Contact Me" section */
 }
